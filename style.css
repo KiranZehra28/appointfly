@@ -1,0 +1,389 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.eot');
+    src: url('Rubik-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Rubik-Bold.woff2') format('woff2'),
+        url('Rubik-Bold.woff') format('woff'),
+        url('Rubik-Bold.ttf') format('truetype'),
+        url('Rubik-Bold.svg#Rubik-Bold') format('svg');
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    color: black;
+    padding-top: 18px;
+}
+
+li {
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik';
+    font-weight: 200;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+
+ul {
+    text-align: center;
+}
+
+header a:hover {
+    background-color: #EE3465;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+#one {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#one h2 {
+    font-size: 60px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 50px;
+    color: black;
+    text-align: left;
+}
+
+#one p {
+    font-size: 35px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+#one a {
+    text-decoration: none;
+    color: #EE3465;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+#one a:hover {
+    background-color: #EE3465;
+    color: white;
+}
+
+#one div {
+    width: 40%;
+}
+
+@media(max-width:1200px){
+    #one div{
+        width: 60%;
+    }
+}
+
+.turn{
+    width: 100%;
+    text-align: center;
+    color: #345DEE;
+    margin: 80px 0px;
+    font-size: 50px;
+}
+
+#two{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#two div{
+    width: 35%;
+}
+
+#two h3 {
+    font-size: 35px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: #EE3465;
+}
+
+#two p {
+    font-size: 20px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media(max-width:1200px){
+    #two div{
+        width: 60%;
+    }
+}
+
+#three{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#three div{
+    width: 35%;
+}
+
+#three h3 {
+    font-size: 35px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: #EE3465;
+}
+
+#three p {
+    font-size: 20px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media(max-width:1200px){
+    #three div{
+        width: 60%;
+    }
+}
+
+#four{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#four div{
+    width: 35%;
+}
+
+#four h3 {
+    font-size: 35px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: #EE3465;
+}
+
+#four p {
+    font-size: 20px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media(max-width:1200px){
+    #four div{
+        width: 60%;
+    }
+}
+
+#five{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+#five div{
+    width: 35%;
+}
+
+#five h3 {
+    font-size: 35px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: #EE3465;
+}
+
+#five p {
+    font-size: 20px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media(max-width:1200px){
+    #five div{
+        width: 60%;
+    }
+}
+
+#six{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#six div{
+    width: 35%;
+}
+
+#six h3 {
+    font-size: 35px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: #EE3465;
+}
+
+#six p {
+    font-size: 20px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media(max-width:1200px){
+    #six div{
+        width: 60%;
+    }
+}
+
+#seven{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 85%;
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+#seven div{
+    width: 35%;
+}
+
+#seven h3 {
+    font-size: 35px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: #EE3465;
+}
+
+#seven p {
+    font-size: 20px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+@media(max-width:1200px){
+    #seven div{
+        width: 60%;
+    }
+}
+
+#eight{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    text-align: left;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#eight div{
+    width: 40%;
+}
+
+#eight h2 {
+    font-size: 45px;
+    font-family: 'Rubik';
+    font-weight: 700;
+    margin-top: 100px;
+    color: black;
+    text-align: left;
+}
+
+#eight p {
+    font-size: 30px;
+    font-family: 'Rubik';
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+#eight a {
+    text-decoration: none;
+    color: #EE3465;
+    border: solid 2px;
+    border-radius: 50px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Rubik';
+}
+
+#eight a:hover {
+    background-color: #EE3465;
+    color: white;
+}
+
+@media(max-width:1200px){
+    #eight div{
+        width: 60%;
+    }
+}
+
+footer{
+    width: 100%;
+    background-color: #EE3465;
+    margin: auto 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto 0;
+}
+
+.footer div{
+    width: 30%;
+    color: white;
+}
